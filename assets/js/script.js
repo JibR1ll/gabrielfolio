@@ -14,7 +14,7 @@ document.getElementById('sendWhatsappMessageBtn').addEventListener('click', func
     }
 
     const whatsappNumber = '243835043090';
-    const whatsappMessage = `Bonjour Gabriel, je m'appelle ${name}. ${message} (Email: ${email}, Sujet: ${subject})`;
+    const whatsappMessage = `Bonjour Gabriel, je m'appelle ${name}. ${message} (Mon Email est: ${email}, en bref, le sujet de mon message est: ${subject})`;
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
     window.open(whatsappURL, '_blank');
