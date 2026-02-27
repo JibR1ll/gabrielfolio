@@ -497,6 +497,7 @@ footer .nav-links{
         margin: 0.4rem;
     }
     .hero {
+        display: flex;
         flex-direction: column;
         min-height: auto;
         gap: 2rem;
